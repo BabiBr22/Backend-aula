@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal, Artigo e Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Seção do Cabeçalho -->
+    <header>
+        <h1>Bem-vindo à minha Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#pessoal">Sobre Mim</a></li>
+                <li><a href="#artigo">Artigo</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#card">Card</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção da Página Pessoal -->
+    <div class="container" id="pessoal">
+        <h2>Bárbara Coelho</h2>
+        <img src="https://estampashow.com.br/cdn/shop/files/121378-LiloStitchkawaiifofocute.png?v=1715887122" alt="Foto de Bárbara Coelho">
+        
+        <div class="info">
+            <p><strong>Idade:</strong> 20 anos</p>
+            <p><strong>Hobbies:</strong> Programação, Videogame, Assistir séries</p>
+        </div>
+    </div>
+
+    <!-- Seção de Artigo -->
+    <header class="header" id="artigo">
+        <h1>Os Benefícios de Jogar Videogames</h1>
+    </header>
+
+    <article class="artigo">
+        <section class="introducao">
+            <p>Jogar videogames não é apenas uma forma de entretenimento, mas também pode trazer inúmeros benefícios para a mente e o corpo. Estudos comprovam que dedicar um tempo para jogar pode melhorar o raciocínio lógico, desenvolver habilidades motoras e até ajudar a aliviar o estresse. Neste artigo, vamos explorar os principais benefícios desse hobby popular.</p>
+        </section>
+
+        <section class="conteudo">
+            <h2>1. Desenvolvimento de Habilidades Cognitivas</h2>
+            <p>Videogames, especialmente jogos de estratégia e quebra-cabeças, podem ajudar a melhorar as habilidades de resolução de problemas e pensamento crítico. Ao enfrentar desafios complexos dentro do jogo, os jogadores desenvolvem a capacidade de tomar decisões rápidas e eficientes.</p>
+
+            <h2>2. Melhora da Coordenação Motora</h2>
+            <p>Jogar videogames exige uma combinação de movimentos precisos com as mãos e atenção aos estímulos visuais. Isso ajuda a melhorar a coordenação motora e os reflexos, habilidades que podem ser úteis em várias atividades do dia a dia.</p>
+
+            <h2>3. Redução do Estresse</h2>
+            <p>Jogar videogames pode ser uma forma eficaz de aliviar o estresse. Jogos imersivos ajudam a distrair a mente das preocupações cotidianas, proporcionando momentos de relaxamento e diversão.</p>
+        </section>
+    </article>
+
+    <!-- Seção de Formulário de Contato -->
+    <div class="formulario-contato" id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Seção de Galeria de Imagens -->
+    <div class="galeria" id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="grid-container">
+            <div class="grid-item"><img src="https://imagensemoldes.com.br/wp-content/uploads/2020/03/Lilo-Stitch-PNG-44.png" alt="Imagem 1"></div>
+            <div class="grid-item"><img src="https://estampashow.com.br/cdn/shop/files/121407-LiloStitchkawaiifofo.png?v=1715887086" alt="Imagem 2"></div>
+            <div class="grid-item"><img src="https://stickerly.pstatic.net/sticker_pack/GoZa105jN9ifiWnMYZ2kfw/88VUQS/18/506806cf-849d-4ce9-aa08-522abea0ad72.png" alt="Imagem 3"></div>
+            <div class="grid-item"><img src="https://imagensgratis.com/wp-content/uploads/2022/07/png-lilo-stitch-70.png" alt="Imagem 4"></div>
+            <div class="grid-item"><img src="https://i.pinimg.com/originals/bd/a1/ed/bda1ed52612375872a1f7e34fbed1fef.png" alt="Imagem 5"></div>
+            <div class="grid-item"><img src="https://www.1papacaio.com.br/images/pngs/disney/lilo/stitch-004.png" alt="Imagem 6"></div>
+        </div>
+    </div>
+
+    <!-- Seção de Tabela de Preços -->
+    <div class="tabela-precos" id="precos">
+        <h2>Tabela de Preços</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto/Serviço</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Serviço de Consultoria</td>
+                    <td>Consultoria para conselhos pessoais.</td>
+                    <td>R$ 300,00</td>
+                </tr>
+                <tr>
+                    <td>Desenvolvimento de Website</td>
+                    <td>Criação de sites responsivos e otimizados.</td>
+                    <td>R$ 1.200,00</td>
+                </tr>
+                <tr>
+                    <td>Apoio moral</td>
+                    <td>Elogios e palavras doces.</td>
+                    <td>R$ 450,00</td>
+                </tr>
+                <tr>
+                    <td>Suporte Técnico</td>
+                    <td>Suporte para qualquer problema relacionado ao whatsapp.</td>
+                    <td>R$ 150,00/hora</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Seção do Card de Apresentação -->
+    <div class="card" id="card">
+        <img src="https://estampashow.com.br/cdn/shop/files/121378-LiloStitchkawaiifofocute.png?v=1715887122" alt="Imagem de Apresentação">
+        <div class="card-content">
+            <h3>Bárbara Coelho</h3>
+            <p>Não sei o que escrever aqui, atá mais !!.</p>
+        </div>
+    </div>
+
+    <!-- Seção do Rodapé -->
+    <footer>
+        <p>&copy; 2024 Bárbara Coelho.</p>
+    </footer>
+
+</body>
+</html>
+

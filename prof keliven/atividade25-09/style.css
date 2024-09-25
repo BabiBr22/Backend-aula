@@ -1,0 +1,243 @@
+/* Estilo para a Página Pessoal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8fff9548;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #10b166;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+/* Estilo para o Artigo */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.autor {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.artigo {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.artigo h2 {
+    color: #10b166;
+    margin-top: 20px;
+}
+
+.artigo p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.introducao {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o Formulário de Contato */
+.formulario-contato {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato h2 {
+    color: #10b166;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #064b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #0d8b56;
+}
+
+/* Estilo para a Galeria de Imagens */
+.galeria {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo para a Tabela de Preços */
+.tabela-precos {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #064b2b;
+    color: white;
+}
+
+/* Estilo para o Card */
+.card {
+    max-width: 300px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-content {
+    margin-top: 15px;
+}
+
+/* Estilo para o Cabeçalho */
+header {
+    background-color: #064b2b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o Rodapé */
+footer {
+    background-color: #064b2b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o Menu de Navegação */
+nav {
+    background-color: #064b2b; /* Cor de fundo do menu */
+}
+
+.menu {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margens */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens */
+}
+
+.menu li {
+    margin: 0 15px; /* Margem lateral entre os itens do menu */
+}
+
+.menu a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 15px; /* Preenchimento interno */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+}
+
+.menu a:hover {
+    background-color: #064b2b; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
